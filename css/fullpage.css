@@ -1,0 +1,183 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: steelblue;
+  
+}
+.main-nav {
+  display: inline;
+  list-style: none
+}
+.main-nav li {
+  background-color: steelblue;
+  border: solid 2px pink;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 10px;
+  float: left;
+  width: 75px;
+  text-align: center
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: navy;
+
+  }
+
+ 
+.main-nav li a:visited {
+  color: floralwhite; 
+  text-decoration: none;
+}
+.main-nav li a:hover {
+  color: floralwhite;
+  text-decoration: underline;
+}
+body {
+  background-image: url('../img/monkaa_monkeyhang.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  margin: 0;
+  padding: 3em;
+}
+header {
+ background-image: url('../img/official_header.png');
+ background-repeat: no-repeat;
+ background-position: right;
+ margin-right: 3em;  
+
+}
+aside {
+  margin-right: 3em;
+  padding: 0;
+
+}
+
+#social {
+  height: 300px;
+  border: solid 1px black;  
+  margin-top: 3em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+
+}
+
+#social ul{
+  list-style: none;
+  margin: 1em;
+}
+
+#social li{
+  display: inline;
+  margin: 0;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+h2 {
+  text-align: right;
+  padding: 0;
+  margin; 0;
+}
+section {
+  margin-right: 3em;
+  padding: 0;
+
+}
+#watch {
+  height: 500px;
+  border: solid 1px black; 
+  margin: 1em;
+  background: transparent;
+  background-size: cover;
+  overflow: hidden;
+  padding: 1em;
+  position: relative;
+
+}
+
+#watch h3 {
+  position: relative;
+}
+
+#watch p {
+  position: relative;
+  width: 300px;
+}
+
+.download-button {
+  background-color: steelblue;
+  border: solid 2px pink;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 10px;
+  float: left;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  color: navy
+
+  }
+ 
+.download-button:visited {
+  color: floralwhite; 
+  text-decoration: none;
+}
+.download-button:hover {
+  color: floralwhite;
+  text-decoration: underline;
+}
+
+
+#listen {
+  height: 200px;
+  border: solid 1px black; 
+  margin: 1em;
+  background: transparent;
+  background-size: cover;
+  overflow: hidden;
+  padding: 1em;
+  position: relative;
+
+}
+
+#about {
+  height: 500px;
+  border: solid 1px black; 
+  margin: 1em;
+  background: transparent;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.headshot {
+  width: 100px;
+  height: auto;
+  padding: 1em;
+  margin: 1em;
+}
+.weybec-people {
+  display: inline-flex;
+  list-style: none;
+
+  }
+.weybec-people li{
+  padding: 15px;
+  margin: 15px;
+}
+
+footer  {
+  text-align: center;
+  margin: 1em;
+
