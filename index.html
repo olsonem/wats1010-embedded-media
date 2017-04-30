@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -8,13 +7,13 @@
         <meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- TODO: Make a favicon that better represents the page. -->
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon-32x32.png">
         <link rel="stylesheet" href="css/main.css">
     </head>
-
     <body>
-
         <header>
+          
+          <h1> </h1>
             <!-- TODO: Create an elegant header using either one of the images
                  or the video loop included in this repository. Make sure the
                  page navigation is presented clearly and in a user-friendly
@@ -22,17 +21,8 @@
                  insert backgrounds and other images into the page. Balance
                  image quality with file size to achieve the best user
                  experience. -->
-            <h1>Monkaa</h1>
-            <p class="subtitle">An open source short film</p>
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="#watch">Watch</a></li>
-                    <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
+      
         </header>
-
         <aside id="social">
             <!-- TODO: Experiment with different ways of making this set of
                  share links stand out and stay near the user all the time.
@@ -42,14 +32,18 @@
                  that could help you make a more interactive design. -->
             <h2>Share</h2>
             <ul class="social-links">
-                <li class="twitter"><a href="http://twitter.com">Twitter</a></li>
-                <li class="facebook"><a href="http://facebook.com">Facebook</a></li>
-                <li class="instagram"><a href="http://instagram.com">Instagram</a></li>
+                <li class="twitter"><a href="http://twitter.com"><img src="/img/twitter.png"></a></li>
+                <li class="facebook"><a href="http://facebook.com"><img src="/img/facebook.png"></a></li>
+                <li class="instagram"><a href="http://instagram.com"><img src="/img/instagram.png"></a></li>
             </ul>
         </aside>
 
         <section id="watch">
             <h2>Watch</h2>
+            <video width="320" height="240" controls>
+              <source src="media/video/monkaa.mp4" type="video/mp4">
+              <source src="media/video/monkaa_1080p.webm" type="videp/webm">
+            </video>
             <!-- TODO: Embed the .webm and .mp4 video with full controls for a
                  convenient and attractive video viewing experience. -->
 
@@ -65,7 +59,10 @@
 
         <section id="listen">
             <h2>Listen</h2>
-            <!-- TODO: Embed an audio player so users can play back the
+            <audio controls>
+              <source src="media/audio/monkaa_soundtrack.mp3">
+            </audio>
+          <!-- TODO: Embed an audio player so users can play back the
                  soundtrack MP3 directly on the page. -->
 
             <!-- TODO: Style an elegant download link to download the video. -->
@@ -86,36 +83,30 @@
                      each headshot below. Images are located in the
                      ``img/weybec/`` directory. -->
                 <li>
-                    <img class="headshot" src="TODO" alt="Pratik Solanki headshot"><br>
+                    <img class="headshot" src="img/weybec/pratik_solanki-edited.jpg" alt="Pratik Solanki headshot"><br>
                     Pratik Solanki<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Nita Ravalji headshot"><br>
+                    <img class="headshot" src="img/weybec/Nita-ravalji1-edited.jpg" alt="Nita Ravalji headshot"><br>
                     Nita Ravalji<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Niyal Parmar headshot"><br>
+                    <img class="headshot" src="img/weybec/niyal_parmar-edited.jpg" alt="Niyal Parmar headshot"><br>
                     Niyal Parmar<br>
                     Co-Founder
                 </li>
             </ul>
 
-            <p>Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
+            <p class="production-info">Monkaa is produced by <a href="http://www.weybec.com/">Weybec</a>, an animation studio located in Mumbai, India and founded by Pratik Solanki, Nita Ravalji and Niyal Parmar.</p>
 
-            <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
+            <p class="project-info">Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/p/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
         </section>
 
         <footer><!-- TODO: Style the footer appropriately. -->
-            <p>This page was created and designed by WEBDEV BEV in 2015. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="#watch">Watch</a></li>
-                    <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
+            <p>This page was created and designed by Em Olson in 2017, <a href="fullpage.html"> full page version</a> available. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
+
         </footer>
 
     </body>
